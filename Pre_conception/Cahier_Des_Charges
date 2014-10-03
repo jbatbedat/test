@@ -1,0 +1,3 @@
+Description générale: on controle un personnage qui doit éviter une balle qui rebondit sur le sol, plafond et les deux bords de l'écran. 
+
+Mécanisme du jeu: il s'agit d'un jeu jouable à 2. Le but étant d'éviter la balle, le vainqueur est celui qui ne se fait pas toucher. Le gameplay se décompose en deux composantes: l'ésquive et l'entrave. L'entrave consiste à frapper son adversaire pour l'immobiliser temporairement. L'écran est fixe, il n'y a pas de scrolling.
