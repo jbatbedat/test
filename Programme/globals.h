@@ -8,6 +8,7 @@
 #include <SDL.h>
 #include <SDL_image.h>
 #include "Player.h"
+#include "Input.h"
 #include <string>
 using namespace std;
 
@@ -24,4 +25,19 @@ extern bool done;
 extern void drawback();
 extern void drawsprites(SDL_Surface *sprite, int destX, int destY, int srcX, int srcY);
 extern SDL_Rect dstrect;
+extern Input Input1;
+extern int timer;
+extern void pause(void);
+
+
+//Timers et status pour la course
+extern int const tCourse1;
+extern int const tCourse2;
+extern int const tCourse3;
+extern int const tCourse4;
+extern int const tCourse5;
+extern int const tInterval;
+extern int rtCourse;
+extern int rtInterval;
+
 

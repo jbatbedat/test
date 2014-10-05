@@ -7,9 +7,10 @@
 
 #include "globals.h"
 
-Player Player1(0,72);
-Player Player2(200,72);
-
+Player Player1(0,200);
+Player Player2(200,200);
+Input Input1;
+Input Input2;
 
 
 

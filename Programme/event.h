@@ -10,3 +10,4 @@
 SDL_Event event;
 bool done=false;
 void touches(void);
+extern Input Input1;

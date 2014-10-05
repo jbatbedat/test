@@ -18,6 +18,9 @@ Player(int posX, int posY);
 void load();
 void draw();
 void freeSurface();
+void courir();
+void immobile();
+void set_m_posX();
 
 private:
 
@@ -30,6 +33,10 @@ int m_hauteurTile;
 int m_largeurTile;
 std::string m_adresseSprite;
 SDL_Surface *m_sprite;
+
+//attributs d'états du personnage
+int m_sens;
+bool m_courseOn;
 
 };
 
