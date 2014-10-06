@@ -228,9 +228,9 @@
 1412364321 /home/beda/Bureau/New project/Programme/draw.h
 	"globals.h"
 
-1412546071 /home/beda/Bureau/New project/Programme/globals.h
-	<SDL.h>
-	<SDL_image.h>
+1412611564 /home/beda/Bureau/New project/Programme/globals.h
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
 	"Player.h"
 	"Input.h"
 	<string>
@@ -259,10 +259,10 @@
 1412548768 /home/beda/Bureau/New project/Programme/main.h
 	"globals.h"
 
-1412546854 /home/beda/Bureau/New project/Programme/Player.h
+1412611564 /home/beda/Bureau/New project/Programme/Player.h
 	<string>
-	<SDL.h>
-	<SDL_image.h>
+	"SDL/SDL.h"
+	"SDL/SDL_image.h"
 
 1412550023 source:/home/beda/Bureau/New project/Programme/Player.cpp
 	"Player.h"
