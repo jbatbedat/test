@@ -16,6 +16,7 @@ using namespace std;
 
 extern SDL_Surface *ecran;
 extern SDL_Surface *background;
+extern SDL_Surface *backgroundClean;
 extern SDL_Surface *sprite;
 extern SDL_Event event;
 extern void init();

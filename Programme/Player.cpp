@@ -41,6 +41,10 @@ void Player::load()
 
 }
 
+int Player::get_m_posX()
+{
+    return m_posX;
+}
 
 void Player::draw()
 {
@@ -54,7 +58,7 @@ void Player::draw()
     src.w=m_largeurTile;
     src.h=m_hauteurTile;
     // draw sprite
-    SDL_BlitSurface(m_sprite, &src, ecran, &dest);
+    SDL_BlitSurface(m_sprite, &src, background, &dest);
 
 }
 

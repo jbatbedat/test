@@ -31,6 +31,7 @@ void load()
 {
         // load an image
     background = IMG_Load("images/background.png");
+    backgroundClean = IMG_Load("images/background.png");
     if (!background)
     {
         printf("Unable to load bitmap: %s\n", SDL_GetError());

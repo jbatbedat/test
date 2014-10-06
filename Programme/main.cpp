@@ -43,6 +43,7 @@ while (!Input1.m_quit)
 
 //Libère les images chargées en mémoire
 SDL_FreeSurface(background);
+SDL_FreeSurface(backgroundClean);
 Player1.freeSurface();
 
     // all is well ;)

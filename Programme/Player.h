@@ -20,7 +20,7 @@ void draw();
 void freeSurface();
 void courir();
 void immobile();
-void set_m_posX();
+int get_m_posX();
 
 private:
 
